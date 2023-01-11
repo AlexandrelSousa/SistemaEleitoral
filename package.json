@@ -1,0 +1,27 @@
+{
+  "name": "sistema_eleitoral",
+  "version": "1.0.0",
+  "description": "Projeto da disciplina de Projeto e Análise de Software. Sistema eleitoral desenvolvido em Postgres/Node/Angular.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrelSousa/SistemaEleitoral.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrelSousa/SistemaEleitoral/issues"
+  },
+  "homepage": "https://github.com/AlexandrelSousa/SistemaEleitoral#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.0",
+    "pg": "^8.8.0"
+  }
+}
