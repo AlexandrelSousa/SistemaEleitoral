@@ -12,3 +12,6 @@ app.use((error, req, res, next)=>{
 });
 
 app.listen(8080, ()=> console.log('servidor rodando!'));
+
+
+//parei no live coding dia 04 25:04
