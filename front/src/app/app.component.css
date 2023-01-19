@@ -1,0 +1,39 @@
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.content-textbox{
+  font-family: Bowlby One sc regular;
+  font-size: 30pt;
+  color: #2c4f47;
+  border: none;
+}
+.content-label input{
+  border: none;
+  border-radius: 5vh;
+  width: 60vw;
+  height: 10vh;
+  font-family: Bowlby One sc regular;
+  font-size: 30pt;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  color: #567371;
+  box-shadow: #567371;
+}
+.content-label input:hover{
+  border: none;
+}
+.content-label input:focus{
+  border: 0 none;
+  outline: 0;
+}
